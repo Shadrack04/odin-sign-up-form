@@ -59,5 +59,21 @@ main {
 .right {
   border: 2px solid red;
   flex: 2;
-  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.write-up {
+  height: 35vh;
+  background-color: #f9fafc;
+}
+
+.inputs {
+  height: 30vh;
+  background-color: white;
+}
+
+.btn-container {
+  height: 35vh;
+  background-color: #f9fafc;
 }
