@@ -80,6 +80,19 @@ main {
   height: 30vh;
   background-color: white;
   padding-left: 20px;
+  box-shadow: 0px 6px 4px 0px gray;
+}
+.inputs > div {
+  display: flex;
+  gap: 60px;
+}
+.inputs input {
+  display: inline-block;
+  margin-bottom: 50px;
+  all: unset;
+  border: 1px solid blue;
+  padding: 2px 10px;
+  border-radius: 3px;
 }
 
 .btn-container {
